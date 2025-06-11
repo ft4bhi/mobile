@@ -41,7 +41,10 @@ dart run build_runner build
 
 flutter test
 ```
-
+# For testing with main server (temporary)
+```bash
+flutter run --dart-define=LICHESS_HOST=lichess.org --dart-define=LICHESS_WS_HOST=socket.lichess.org --dart-define=LICHESS_WS_SECRET=your_temp_key
+```
 ## Internationalisation
 
 Do not edit the `app_en.arb` file by hand, this file is generated.
